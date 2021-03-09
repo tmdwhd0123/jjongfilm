@@ -1,0 +1,17 @@
+{
+  "name": "youtube",
+  "version": "1.0.0",
+  "description": "youtubeApi example",
+  "main": "app.js",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "web.js": "^1.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node web.js"
+  },
+  "author": "saroro",
+  "license": "ISC"
+}

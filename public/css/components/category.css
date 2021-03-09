@@ -1,0 +1,38 @@
+.category{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.category-division{
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+
+.category-division__line{
+  width: 70px;
+  height: 1px;
+  background: #bbb; background-image: -webkit-linear-gradient(left, #eee, #777, #eee); 
+  background-image: -moz-linear-gradient(left, #eee, #777, #eee); 
+  background-image: -ms-linear-gradient(left, #eee, #777, #eee); 
+  background-image: -o-linear-gradient(left, #eee, #777, #eee);
+}
+
+.category-division__logo{
+  margin: 0px 5px;
+  color: #777;
+}
+
+.category__title{
+  font-size: 30px;
+  font-family: 'Dancing Script', cursive;
+}
+
+.category__sub-title{
+  font-size: 15px;
+  font-weight: 300;
+  font-family: 'Jeju Myeongjo', serif;
+}

@@ -1,0 +1,26 @@
+.tag{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  border-radius: 5px;
+  color: white;
+  padding: 8px 10px; 
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.hot{
+  background-color: red;
+}
+
+.new{
+  background-color: blue;
+}
+
+.best{
+  background-color: blueviolet;
+}

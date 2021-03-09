@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<link rel="stylesheet" href="css/styles.css">
+	<script src="./js/download.js" crossorigin="anonymous">
+
+	</script>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>JJONG FILM</title>
+	<meta name="description" content="초보 영상제작자들을 위한 영상 촬영/편집 TIP과 다양한 영상 재료를 제작하며 언제든지 재료를 가지고 요리할 수 있도록 서포트하며 구독자 여러분들과 함께 성장하는 채널입니다.">
+	<meta name="author" content="JANG SEUNG JONG">
+	<link rel="icon" type="image/png" href="imgs/youricon.png">
+</head>
+
+<body>
+	<!-- Navbar -->
+	<nav id="nav-bar">
+		<div id="nav-bar__container" class="nav-section">
+			<div class="nav-bar__logo__container">
+				<a href="index.html">
+					<div class="nav-bar__logo">
+						<img src="img/jj.png">
+		    	<span>JJongFilm</span>
+        </div>
+        </a>
+        <!-- Toggle button -->
+        <button class="nav-bar__toggle-btn">
+        <i class="fas fa-bars"></i>
+        </button>
+      </div>
+
+      <ul class="nav-bar__menu">
+        <li class="nav-bar__menu__item" data-link="#banner">홈</li>
+        <li class="nav-bar__menu__item" data-link="#introduce">소개</li>
+        <li class="nav-bar__menu__item" data-link="#background-color">템플릿 <i class="fas fa-angle-down"></i></li>
+        <li class="nav-bar__menu__item" data-link="#portfolio">포트폴리오</li>
+        <li class="nav-bar__menu__item" data-link="#contact">문의하기</li>
+      </ul>
+    </div>
+    
+    
+  </nav>
+
+  <!-- Product -->
+  <section id="product" class="section">
+    <div class="product-info">
+      <div class="product-info__img">
+        <img src="img/ex00.jpg" alt="">
+      </div>
+      <div class="product-info__sticky">
+        <div class="product-info__sticky__container">
+          <div class="product-info__sticky__text">
+          <span>반응형 자막바</span>
+          <span>Responsive subtitle</span>
+          <span>프리미어 프로에서 사용 가능한 반응형 자막바입니다</span>
+          </div>
+          <div class="product-info__sticky__icons">
+            <div class="product-info__sticky__icons__row">
+              <div class="product-info__sticky__icon">
+            <img src="img/icons/premiere-pro.png">
+            <span>Premiere Pro</span>
+              </div>
+              <div class="product-info__sticky__icon">
+            <img src="img/icons/license.svg">
+            <span>라이선스 무료</span>
+              </div>
+            </div>
+            <div class="product-info__sticky__icons__row">
+              <div class="product-info__sticky__icon">
+            <img src="https://cdn1.iconfinder.com/data/icons/essential-user-interface-3/24/fhd_hd_full_high_definition-128.png">
+            <span>1920 * 1080</span>
+              </div>
+              <div class="product-info__sticky__icon">
+            <img src="img/icons/file.svg">
+            <span>.mogrt</span>
+              </div>
+            </div>
+            
+          </div>
+          
+          <div class="product-info__sticky__alert">
+            <i class="fas fa-exclamation-circle alert__icon"></i>
+            <span>JJongFilm 채널 구독 후 다운로드 가능합니다</span>
+          </div>
+          <div class="product-info__sticky__btn" onclick = "auth()">
+            <img src="img/download.svg" alt="download_icon">
+            <a href = "./download?id=1"><span>다운로드</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="product-details">
+     <div class="product-details__column">
+       <div class="product-detail">
+         <div class="product-detail__line"></div>
+         <span>제품정보</span>
+         <img src="img/ex1.jpg" alt="">
+       </div>
+       <div class="product-detail">
+         <div class="product-detail__line"></div>
+         <span>사용방법</span>
+         <img src="img/ex2.jpg" alt="">
+       </div>
+       <div class="product-detail">
+         <div class="product-detail__line"></div>
+         <span>라이선스</span>
+         <img src="img/ex3.jpg" alt="">
+       </div>
+     </div>
+     <div class="product-details__column__blank"></div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="footer" class="section">
+    <span>Copyrights © 2021 All Rights Reserved by JJONGFILM.</span>
+    <div class="icons">
+      <i class="fab fa-facebook-square"></i>
+      <i class="fab fa-instagram"></i>
+      <i class="fab fa-youtube"></i>
+      </div>
+  </footer>
+
+	<script src="https://kit.fontawesome.com/af30976805.js" crossorigin="anonymous"></script>
+  <script src="js/download-btn.js"></script>
+  <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script>
+    $('.alert__close').click(function() {
+    $(this).parent().addClass('closed');
+  });
+  </script>
+</body>
+</html>

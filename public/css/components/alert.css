@@ -1,0 +1,16 @@
+.product-info__sticky__alert{
+  display: flex;
+  margin: 10px; 
+  align-items: center;
+  padding: 10px;
+  background-color: #d6f5d6;
+  border-radius: 5px;
+}
+
+.product-info__sticky__alert i{
+  margin-right: 10px;
+}
+
+.product-info__sticky__alert span{
+  font-size: 15px;
+}

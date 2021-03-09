@@ -1,0 +1,22 @@
+.type{
+  display: flex;
+  flex-direction: column;
+  margin: 40px 10px 20px 10px;  
+}
+
+.type_name{
+  font-weight: 900;
+  font-size: 25px;
+  margin-bottom:10px;
+}
+
+.type_content{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  font-size: 15px;
+}
+
+.type_name i{
+  display: none;
+}

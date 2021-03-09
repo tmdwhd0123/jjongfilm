@@ -1,0 +1,67 @@
+.nav-section{
+  padding: 0px;
+  max-width: 1300px;
+  min-width: 320px;
+  margin: auto;
+}
+
+#nav-bar{
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  min-width: 320px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  background-color: white;
+  z-index: 99;
+}
+
+#nav-bar__container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px;
+}
+
+.nav-bar__logo__container{
+  display: flex;
+}
+
+.nav-bar__logo{
+  display: flex;
+  align-items: center;
+  padding: 0px 10px;
+}
+
+.nav-bar__logo span{
+  font-family: 'Dancing Script', cursive;
+}
+
+.nav-bar__logo img{
+  width: 30px;
+  height: 30px;
+}
+
+.nav-bar__menu{
+  display: flex; 
+}
+
+
+.nav-bar__menu__item{
+  margin: 0px 10px;
+  padding: 23px 5px;
+  font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
+  color: #6B7280;
+  cursor: pointer;
+  
+}
+
+.nav-bar__menu__item:hover{
+  color: black;
+}
+
+
+.nav-bar__toggle-btn{
+  border: none;
+  font-size: 20px;  
+  display: none;
+}
