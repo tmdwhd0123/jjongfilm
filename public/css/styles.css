@@ -189,7 +189,7 @@ body {
   }
 
   .nav-bar__menu.open{
-    display: block;
+    display: flex;
   }
 
   .nav-bar__menu__item{
@@ -393,7 +393,7 @@ body {
   }
 
   .nav-bar__menu.open{
-    display: block;
+    display: flex;
   }
 
   .nav-bar__menu__item{
