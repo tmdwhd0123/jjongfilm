@@ -29,6 +29,7 @@
 @import "components/profile-card.css";
 @import "components/book.css";
 @import "components/alert.css";
+@import "components/portfolio-card.css";
 
 /* Screens */
 @import "screens/product.css";
