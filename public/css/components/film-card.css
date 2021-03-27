@@ -16,11 +16,13 @@
 .film-card__header{
   display: flex;
   align-items: flex-start;  
+  width: 100%;
 }
 
 .film-card__header__contents{
   display: flex;
   flex-direction: column;
+  width: 50%;
 }
 
 .film-card__header__content1{
@@ -62,6 +64,7 @@
 
 .film-card__header__video{
   margin-right: 20px;
+  width: 50%;
 }
 
 .background_ucc{
