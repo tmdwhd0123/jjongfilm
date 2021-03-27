@@ -15,9 +15,7 @@
 
 .film-card__header{
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  margin-bottom: 30px;
+  align-items: flex-start;  
 }
 
 .film-card__header__contents{
@@ -57,19 +55,17 @@
   padding: 5px;
 }
 
+.film-card__header__content3{
+  margin-top: 20px;
+  color: #555;
+}
+
 .film-card__header__video{
   margin-right: 20px;
 }
 
-.film-card__footer{
-  display: flex;
-  color: #555;
-  font-weight: 400;
-  max-width: 100%;
-}
-
 .background_ucc{
-  background: url('/img/film-card/ucc_column.png');
+  background: url('/img/film-card/camera.png');
   background-size: cover;
 }
 

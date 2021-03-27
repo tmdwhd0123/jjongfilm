@@ -5,8 +5,8 @@
 
 /* ------------ vid ------------ */
 .youtube {
-  width: 192px;
-  height: 108px;
+  width: 480px;
+  height: 270px;
   /*
   width: 25vw;
   height: calc(9/16 * 25vw);
