@@ -35,6 +35,14 @@
   font-weight: 700;
   margin-top: 10px;
   margin-bottom: 5px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1; /* 라인수 */
+  -webkit-box-orient: vertical;
+  word-wrap:break-word; 
+  line-height: 1.2em;
+  height: 1.2em; /* line-height 가 1.2em 이고 3라인을 자르기 때문에 height는 1.2em * 3 = 3.6em */
 }
 
 .film-card__header__content1 h4{
@@ -60,6 +68,7 @@
 .film-card__header__content3{
   margin-top: 20px;
   color: #555;
+  
 }
 
 .film-card__header__video{

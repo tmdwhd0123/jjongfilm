@@ -27,6 +27,7 @@
 @import "components/youtube.css";
 @import "components/business-card.css";
 @import "components/alert.css";
+@import "components/portfolio-card.css";
 
 /* Screens */
 @import "screens/product.css";
@@ -48,8 +49,17 @@ body {
 }
 
 /* PC (해상도 1024px)*/
-@media all and (min-width:1024px) and (max-width:1300px) {
-  
+@media all and (min-width:1024px) {
+  .film-card__header__content3{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 5; /* 라인수 */
+    -webkit-box-orient: vertical;
+    word-wrap:break-word; 
+    line-height: 1.2em;
+    height: 6.0em; /* line-height 가 1.2em 이고 3라인을 자르기 때문에 height는 1.2em * 3 = 3.6em */
+  }
 }
   
 
@@ -113,6 +123,17 @@ body {
 .tag{
   font-size: 1.1730vw;
   padding: 0.7820vw 0.9775vw; 
+  }
+
+  .film-card__header__content3{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* 라인수 */
+    -webkit-box-orient: vertical;
+    word-wrap:break-word; 
+    line-height: 1.2em;
+    height: 2.4em; /* line-height 가 1.2em 이고 3라인을 자르기 때문에 height는 1.2em * 3 = 3.6em */
   }
 }
 
@@ -321,6 +342,17 @@ body {
 
   .film-card__header__video{
     width: 100%;
+  }
+
+  .film-card__header__content3{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 5; /* 라인수 */
+    -webkit-box-orient: vertical;
+    word-wrap:break-word; 
+    line-height: 1.2em;
+    height: 6.0em; /* line-height 가 1.2em 이고 3라인을 자르기 때문에 height는 1.2em * 3 = 3.6em */
   }
 
 }
@@ -536,5 +568,16 @@ body {
 
   .film-card__header__video{
     width: 100%;
+  }
+
+  .film-card__header__content3{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 5; /* 라인수 */
+    -webkit-box-orient: vertical;
+    word-wrap:break-word; 
+    line-height: 1.2em;
+    height: 6.0em; /* line-height 가 1.2em 이고 3라인을 자르기 때문에 height는 1.2em * 3 = 3.6em */
   }
 }

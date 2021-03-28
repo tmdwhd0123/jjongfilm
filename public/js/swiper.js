@@ -1,4 +1,4 @@
-var swiper = new Swiper('.swiper-container', {
+var swiper = new Swiper('.swiper1', {
   effect: 'coverflow',
   grabCursor: true,
   centeredSlides: true,
@@ -22,3 +22,14 @@ var swiper = new Swiper('.swiper-container', {
   },
   // },
 });
+
+var swiper = new Swiper('.swiper2', {
+            direction: 'vertical',
+            slidesPerView: 1,
+            spaceBetween: 30,
+            mousewheel: true,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+        });
