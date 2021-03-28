@@ -1,9 +1,0 @@
-.portfolio-cards{
-  display: flex;
-  flex-direction: column;
-  padding: 0px 10px;
-}
-
-.portfolio-card{
-  margin: 0px 0px 10px 0px;
-}

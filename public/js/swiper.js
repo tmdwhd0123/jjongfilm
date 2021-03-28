@@ -25,7 +25,7 @@ var swiper = new Swiper('.swiper1', {
 
 var swiper = new Swiper('.swiper2', {
             direction: 'vertical',
-            slidesPerView: 1,
+            slidesPerView: 2,
             spaceBetween: 30,
             mousewheel: true,
             pagination: {
