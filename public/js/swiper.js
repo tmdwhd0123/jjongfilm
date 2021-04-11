@@ -49,3 +49,12 @@ var swiper = new Swiper('.swiper2', {
         prevEl: '.swiper-button-prev',
       },
     });
+
+var swiper = new Swiper('.swiper-items', {
+      slidesPerView: 4,
+      spaceBetween: 30,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+    });
