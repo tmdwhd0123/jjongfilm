@@ -453,10 +453,6 @@ body {
     height: 200px;
   }
 
-  #banner img{
-    height: 200px;
-  }
-
   #footer{
     flex-direction: column-reverse;
     padding: 10.4167vw 15px;
